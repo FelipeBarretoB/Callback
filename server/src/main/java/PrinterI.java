@@ -5,14 +5,16 @@ public class PrinterI implements Demo.Printer
     public long printString(String s, com.zeroc.Ice.Current current)
     {
         String result=s.split(":")[0];
+        StringBuilder stb= new StringBuilder();
         result+=": ";
         long x=0;
         try {
             x = Long.parseLong(s.replaceAll(" ", "").split(":")[1]);
             if(x>=0){
                 for(int i=0;i<=x;i++){
-                    result+=fibo(i,current)+" ";
+                    stb.append(fibo(i,current)+" ");
                 }
+                result+=stb.toString();
                 x= fibo(x, current);
             }else{
                 result=s;
