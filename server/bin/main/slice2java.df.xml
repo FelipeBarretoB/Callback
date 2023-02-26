@@ -1,0 +1,12 @@
+<state>
+  <timestamp value='1677283839572' />
+  <sourceSet name='default'>
+    <source name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/Printer.ice'>
+      <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/server/build/generated-src/Demo/Printer.java' />
+      <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/server/build/generated-src/Demo/PrinterPrx.java' />
+      <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/server/build/generated-src/Demo/_PrinterPrxI.java' />
+    </source>
+    <arg value='/opt/homebrew/Cellar/ice/3.7.8/bin/slice2java' />
+    <arg value='-I/opt/homebrew/Cellar/ice/3.7.8/share/ice/slice' />
+  </sourceSet>
+</state>
