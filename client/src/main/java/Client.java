@@ -15,10 +15,14 @@ public class Client
             //Demo.PrinterPrx printer = Demo.PrinterPrx.checkedCast(base);
             Scanner sc = new Scanner(System.in);
             String x = sc.nextLine();
+            int i = 0;
             while(!x.equals("exit")){
-                System.out.println(twoway.printString(x));
-                x = sc.nextLine();
+                System.out.println(twoway.printString(x+": "+i));
+                System.err.println(i);
+                //x = sc.nextLine();
+                i++;
             }
+
             sc.close();
         }
     }
