@@ -1,12 +1,9 @@
 <state>
-  <timestamp value='1684378241750' />
+  <timestamp value='1684379266759' />
   <sourceSet name='default'>
-    <source name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/Printer.ice'>
-      <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/client/build/generated-src/Demo/Printer.java' />
+    <source name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/Callback.ice'>
       <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/client/build/generated-src/Demo/Callback.java' />
       <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/client/build/generated-src/Demo/ChatManager.java' />
-      <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/client/build/generated-src/Demo/PrinterPrx.java' />
-      <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/client/build/generated-src/Demo/_PrinterPrxI.java' />
       <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/client/build/generated-src/Demo/CallbackPrx.java' />
       <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/client/build/generated-src/Demo/_CallbackPrxI.java' />
       <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/client/build/generated-src/Demo/ChatManagerPrx.java' />

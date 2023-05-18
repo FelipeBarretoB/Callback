@@ -13,11 +13,11 @@ subprojects {
     apply plugin: 'com.zeroc.gradle.ice-builder.slice'
  
     //
-    // Both Client and Server projects share the Printer.ice Slice definitions
+    // Both Client and Server projects share the Callback.ice Slice definitions
     //
     slice {
         java {
-            files = [file("../Printer.ice")]
+            files = [file("../Callback.ice")]
         }
     }
  

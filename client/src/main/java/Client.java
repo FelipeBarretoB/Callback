@@ -29,13 +29,12 @@ public class Client
                 adapter.activate();
                 String hostname = Inet4Address.getLocalHost().getHostName();
                 CallbackPrx prx = CallbackPrx.uncheckedCast(objectPrx);
-                chatManagerPrx.subscribe(prx, hostname+"1");
+                chatManagerPrx.subscribe(prx, hostname);
 
                 Scanner sc = new Scanner(System.in);
                 String x = sc.nextLine();
-                int i = 0;
                 while(!x.equals("exit") ){
-                    chatManagerPrx.sendMessage(x, hostname+"1");
+                    chatManagerPrx.sendMessage(x, hostname);
                     x = sc.nextLine();
                 }
                 sc.close();

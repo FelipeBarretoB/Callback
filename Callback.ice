@@ -3,19 +3,13 @@ module Demo
 
     sequence<string> StringSeq;
 
-    interface Printer
-    {
-        long printString(string s);
-        long fibo(long a);
-    }
-
     interface Callback
     {
         void notifyCallback();
 
         void callbackTest();
 
-        void printFibo(string s);
+        void printMsg(string s);
     }
 
     interface ChatManager

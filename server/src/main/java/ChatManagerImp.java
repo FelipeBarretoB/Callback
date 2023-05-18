@@ -67,7 +67,7 @@ public class ChatManagerImp implements Demo.ChatManager {
 
     public void broadCast(String msg){
         for (ClientManager client : clientManager) {
-            client.getCallbackPrx().printFibo(msg);
+            client.getCallbackPrx().printMsg(msg);
         }
     }
 
@@ -76,13 +76,13 @@ public class ChatManagerImp implements Demo.ChatManager {
         for (ClientManager client : clientManager) {
             clientList+=client.getId()+" ";
         }
-        callbackPrx.printFibo(clientList);
+        callbackPrx.printMsg(clientList);
     }
 
     public void sendTo(String hostname, String msg){
         for (ClientManager client : clientManager) {
             if (client.getId().equals(hostname)) {
-                client.getCallbackPrx().printFibo(msg);
+                client.getCallbackPrx().printMsg(msg);
             }
         }
     }
