@@ -11,5 +11,5 @@
 #Ice.ThreadPool.Server.Size=1
 
 Service.Endpoints = default -p 8000
-Ice.Default.Host = localhost
+Ice.Default.Host = 10.147.19.158
 Ice.ThreadPool.Server.Size=3
