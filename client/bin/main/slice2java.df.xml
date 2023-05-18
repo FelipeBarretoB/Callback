@@ -1,12 +1,18 @@
 <state>
-  <timestamp value='1683922138434' />
+  <timestamp value='1683985345383' />
   <sourceSet name='default'>
-    <source name='C:\Users\Usuario\OneDrive\Escritorio\Cosas\Cosas de la U\Semestre 6\arqui soft\helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto\Printer.ice'>
-      <file name='C:\Users\Usuario\OneDrive\Escritorio\Cosas\Cosas de la U\Semestre 6\arqui soft\helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto\client\build\generated-src\Demo\Printer.java' />
-      <file name='C:\Users\Usuario\OneDrive\Escritorio\Cosas\Cosas de la U\Semestre 6\arqui soft\helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto\client\build\generated-src\Demo\PrinterPrx.java' />
-      <file name='C:\Users\Usuario\OneDrive\Escritorio\Cosas\Cosas de la U\Semestre 6\arqui soft\helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto\client\build\generated-src\Demo\_PrinterPrxI.java' />
+    <source name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/Printer.ice'>
+      <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/client/build/generated-src/Demo/Printer.java' />
+      <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/client/build/generated-src/Demo/Callback.java' />
+      <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/client/build/generated-src/Demo/ChatManager.java' />
+      <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/client/build/generated-src/Demo/PrinterPrx.java' />
+      <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/client/build/generated-src/Demo/_PrinterPrxI.java' />
+      <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/client/build/generated-src/Demo/CallbackPrx.java' />
+      <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/client/build/generated-src/Demo/_CallbackPrxI.java' />
+      <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/client/build/generated-src/Demo/ChatManagerPrx.java' />
+      <file name='/Users/pipe/Library/CloudStorage/OneDrive-Personal/Escritorio/Cosas/Cosas de la U/Semestre 6/arqui soft/helloworld-ciclo-kbd-Gabiel_Delago-Felipe_Barreto/client/build/generated-src/Demo/_ChatManagerPrxI.java' />
     </source>
-    <arg value='C:\Program Files\ZeroC\Ice-3.7.8\\bin\slice2java.exe' />
-    <arg value='-IC:\Program Files\ZeroC\Ice-3.7.8\\slice' />
+    <arg value='/opt/homebrew/Cellar/ice/3.7.8/bin/slice2java' />
+    <arg value='-I/opt/homebrew/Cellar/ice/3.7.8/share/ice/slice' />
   </sourceSet>
 </state>
