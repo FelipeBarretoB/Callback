@@ -29,17 +29,15 @@ public class Client
                 adapter.activate();
                 String hostname = Inet4Address.getLocalHost().getHostName();
                 CallbackPrx prx = CallbackPrx.uncheckedCast(objectPrx);
-                chatManagerPrx.subscribe(prx, hostname+"2");
+                chatManagerPrx.subscribe(prx, hostname+"1");
 
                 Scanner sc = new Scanner(System.in);
                 String x = sc.nextLine();
                 int i = 0;
-                while(!x.equals("exit") && i<50){
-                    chatManagerPrx.sendMessage(x+" "+i, hostname+"2");
-                    //x = sc.nextLine();
-                    i++;
+                while(!x.equals("exit") ){
+                    chatManagerPrx.sendMessage(x, hostname+"1");
+                    x = sc.nextLine();
                 }
-                communicator.waitForShutdown();
                 sc.close();
             } catch (Exception e) {
                 System.out.println("Error: " + e.getMessage());

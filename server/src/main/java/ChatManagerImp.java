@@ -17,7 +17,18 @@ public class ChatManagerImp implements Demo.ChatManager {
     @Override
     public void subscribe(CallbackPrx callback, String hostname, Current current) {
         System.out.println("subscribe");
-        clientManager.add(new ClientManager(callback, hostname));
+        if(!checkIfSubribed(hostname)){
+            clientManager.add(new ClientManager(callback, hostname));
+        }
+    }
+
+    public boolean checkIfSubribed(String hostname){
+        for (ClientManager client : clientManager) {
+            if (client.getId().equals(hostname)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     @Override
@@ -36,12 +47,46 @@ public class ChatManagerImp implements Demo.ChatManager {
         new Thread(() -> {
             CallbackPrx callbackPrx = getCallbackPrx(hostname);
             System.out.println("new Message: " + msg);
-            long result = printString(msg, current);
-            messages.add(result+"");
-            callbackPrx.printFibo(msg+" = "+result);
-            //callbackPrx.notifyCallback();
+            comand(msg,callbackPrx);
+            
         }).start();
     }
+
+    public void comand(String msg,CallbackPrx callbackPrx){
+        if(msg.contains("BC")){
+            broadCast(msg.split("BC ")[1]);
+        }else if(msg.contains("list clients")){
+            getClients(callbackPrx);
+        }else if(msg.contains("to ") && msg.contains(":")){
+            String hostname=msg.split("to ")[1].split(":")[0];
+            String message=msg.split("to ")[1].split(":")[1];
+            sendTo(hostname, message.trim());
+        }
+         
+    }
+
+    public void broadCast(String msg){
+        for (ClientManager client : clientManager) {
+            client.getCallbackPrx().printFibo(msg);
+        }
+    }
+
+    public void getClients(CallbackPrx callbackPrx){
+        String clientList="";
+        for (ClientManager client : clientManager) {
+            clientList+=client.getId()+" ";
+        }
+        callbackPrx.printFibo(clientList);
+    }
+
+    public void sendTo(String hostname, String msg){
+        for (ClientManager client : clientManager) {
+            if (client.getId().equals(hostname)) {
+                client.getCallbackPrx().printFibo(msg);
+            }
+        }
+    }
+
     @Override
     public long printString(String s, com.zeroc.Ice.Current current)
     {
