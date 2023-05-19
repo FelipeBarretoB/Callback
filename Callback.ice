@@ -5,10 +5,6 @@ module Demo
 
     interface Callback
     {
-        void notifyCallback();
-
-        void callbackTest();
-
         void printMsg(string s);
     }
 
@@ -20,10 +16,6 @@ module Demo
         StringSeq getState();
 
         void sendMessage(string msg, string hostname);
-
-        long printString(string s);
-        
-        long fibo(long a);
     }
 
     

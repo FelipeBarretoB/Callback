@@ -13,21 +13,8 @@ public class CallBackImp implements Demo.Callback {
     }
 
     @Override
-    public void callbackTest(Current current){
-        System.out.println("callack");
-    }
-
-    //TODO cambiar este nombre
-    @Override
     public void printMsg(String result, Current current){
         System.out.println(result);
-    }
-
-    @Override
-    public void notifyCallback(Current current) {
-        String state[] = server.getState();
-
-        System.out.println("Callback exec: " + Arrays.toString(state));
     }
 
 }

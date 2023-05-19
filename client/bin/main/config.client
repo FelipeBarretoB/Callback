@@ -15,8 +15,8 @@
 #Ice.Default.Host=localhost
 
 
-Callback.Endpoints = tcp -p 10008
+Callback.Endpoints = tcp -h hgrid9 -p 10008
 
 ChatManager.Proxy = ChatManager: default -p 8000
 
-Ice.Default.Host = 10.147.19.158
+Ice.Default.Host = hgrid7
