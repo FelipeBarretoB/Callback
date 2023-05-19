@@ -1,6 +1,9 @@
 # Callback 
 <br/>
-<p>Este trabajo es la implementación del patron de diseño Callback para un chat entre maquinas, todo desde la consola</p> <br/>
+
+## Trabajo por: Gabriel Delgado y Felipe Barreto
+<br/>
+<p>Este trabajo es la implementación del patron de diseño Callback para un chat entre maquinas. Se usa la consola como interface</p> <br/>
 
 ## Ramas
 
