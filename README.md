@@ -44,10 +44,10 @@
 <p>Para usar el callback debes desplegar el servidor y al menos 1 cliente, de ahi puede usar el comando "Help" para ver los posibles comandos y que hacen, en todo caso aqui esta la lista</p>
 <br/>
 <ol>
-  <li>BC <msg> : envia un mensaje a todos los clientes conectados</li>
+  <li>BC [msg] : envia un mensaje a todos los clientes conectados</li>
   <li>list clients : lista los clientes conectados</li>
-  <li>to <hostname>:<msg> : envia un mensaje a un cliente especifico</li>
-  <li>fibonacci: <numero> : retorna la serie de fibonacci hasta <numero></li>
+  <li>to [hostname]:[msg] : envia un mensaje a un cliente especifico</li>
+  <li>fibonacci: [numero] : retorna la serie de fibonacci hasta [numero]</li>
 </ol>
 <p>cabe resaltar que esta implementación del fibonacci es con un loop, así que es más rapidas que las de las otras ramas</p>
 
