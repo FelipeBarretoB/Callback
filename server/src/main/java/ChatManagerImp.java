@@ -113,10 +113,10 @@ public class ChatManagerImp implements Demo.ChatManager {
         result += ": ";
         long count = 0;
         count = Long.parseLong(s.replaceAll(" ", "").split(":")[1]);
-        int num1 = 0, num2 = 1;
+        long num1 = 0, num2 = 1;
         for (int i = 1; i <= count; ++i) {
 
-            int sumOfPrevTwo = num1 + num2;
+            Long sumOfPrevTwo = num1 + num2;
             num1 = num2;
             num2 = sumOfPrevTwo;
             stb.append(num1 + " ");
