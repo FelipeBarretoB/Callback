@@ -15,7 +15,7 @@
 #Ice.Default.Host=localhost
 
 
-Callback.Endpoints = tcp -p 10006
+Callback.Endpoints = tcp -p 10001
 
 ChatManager.Proxy = ChatManager: default -p 8000
 
