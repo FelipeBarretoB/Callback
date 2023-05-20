@@ -19,9 +19,13 @@
 ### rama 2
 <p>La segunda es el callback solo con el fibonacci implementado</p>
 <br/>
-<p>Este rama tambien solo funciona de manera local pero tiene 3 threads, y corre al usar una entrada cualquiera seguido de : y un espacio (por ejemplo: "1: ")</p>
+<p>Este rama tambien solo funciona de manera local pero tiene 3 threads, y corre al usar una entrada cualquiera seguido un espacio (por ejemplo: "1 ")</p>
 <br/>
 <p>Por la implemetanción del callback, el cliente no tendra un timeout, dado que este no espera la respuesta del servior</p>
+<br/>
+<p>Dicho esto, si quieres desplegar multiples clientes de manera local, sera un poco complicado. Ten encuenta que ahora cada cliente tiene un puerto, por ende, si intentas desplegar dos clientes, solo podras desplegar 1, dado que tu puerto ya estaria ocupado. <br/>
+Por ende, tendras que cambiar el puerto en el config y volver a hacer gradle build. Además de cambiarle el puerto, tiene que asegurarte que tengan un nombre diferente, por lo cual tendras que añadirle algo para diferenciarlo. <br/>
+Sin embargo, todo esto hay forma de hacerlo en gradle, lastimosamente por temas de tiempo, no se llego a implementar</p>
 
 ## Rama principal
 
